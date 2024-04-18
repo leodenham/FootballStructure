@@ -1,0 +1,41 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.position,
+#addToos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+#field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-direction: column;
+}
+
+#benchWrapper,
+#sickWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 150px;
+  height: 45px;
+  /* border-radius: 8px; */
+  /* border: 2px solid red; */
+}
