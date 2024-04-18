@@ -9,11 +9,13 @@ const initialSubbed = ["Louis", "McEvoy", "Dan", "Ryan"];
 const onButtonClick = (playerButton, player) => {
   if (!currentSwitch) {
     currentSwitch = playerButton;
+    currentSwitch.style.backgroundColor = "red";
   } else {
     const oldText = playerButton.textContent;
     playerButton.textContent = currentSwitch.textContent;
     currentSwitch.textContent = oldText;
-    currentSwitch = false;
+    currentSwitch.style.backgroundColor = "buttonface";
+    currentSwitch = undefined;
   }
 };
 
